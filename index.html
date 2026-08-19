@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jayanth Vegesna | Academic Portfolio</title>
+    <link rel="icon" href="favicon.png" type="image/png">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;1,400&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <nav id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">JV</div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#publications">Publications</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#achievements">Achievements</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <header id="hero" class="fade-in">
+        <div class="container hero-content">
+            <div class="hero-text">
+                <h1>Jayanth Vegesna</h1>
+                <h2>M.Tech Student, Biomedical Science and Engineering</h2>
+                <h3>Indian Institute of Technology Guwahati</h3>
+                <p>Interdisciplinary researcher bridging computational biophysics and molecular biology, with emerging focus on tissue engineering and 3D bioprinting.</p>
+                <div class="hero-links">
+                    <a href="mailto:jayanth@iitg.ac.in" class="btn btn-primary">Email Me</a>
+                    <a href="https://github.com/jayanth-vegesna" class="btn btn-secondary" target="_blank">GitHub</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="_DSC0697.jpg" alt="Jayanth Vegesna in the laboratory" />
+            </div>
+        </div>
+    </header>
+
+    <section id="about" class="section-bg fade-in">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <p>I am a first-year postgraduate student in Biomedical Science and Engineering at the Indian Institute of Technology Guwahati, specializing in Regenerative Medicine, Stem Cells, and Therapeutics. My academic journey is defined by a commitment to interdisciplinary research, integrating computational methodologies with rigorous wet-lab experimentation.</p>
+            <p>My previous research spans computational biophysics, including extensive molecular dynamics simulations at IIT Mandi, molecular parasitology at IBAB Bengaluru, and infectious disease biology at NHRI Taiwan. This diverse foundational training has equipped me to understand complex biological systems at both the molecular and organismal levels. I am currently directing my expertise towards the fields of tissue engineering and 3D bioprinting. By combining my background in computational modeling and molecular biology, I aim to contribute to the development of next-generation regenerative therapies and engineered biomaterials.</p>
+        </div>
+    </section>
+
+    <section id="experience" class="fade-in">
+        <div class="container">
+            <h2 class="section-title">Research Experience</h2>
+            <div class="timeline">
+
+                <div class="timeline-item">
+                    <div class="timeline-date">August 2025 to Present</div>
+                    <div class="timeline-content">
+                        <h3>Research Intern, Molecular Parasitology Lab</h3>
+                        <h4>Institute of Bioinformatics and Applied Biotechnology (IBAB), Bengaluru</h4>
+                        <ul>
+                            <li>Contributing to a study on R-loops in Plasmodium falciparum by cloning and purifying PfRNaseH enzymes via infusion cloning and recombinant expression in E. coli.</li>
+                            <li>Conducting in silico characterization of putative PfRNaseH2A-C subunits including solubility, phase-separation, and intrinsically disordered region prediction.</li>
+                            <li>Utilizing CLANS and EFI-EST to construct sequence similarity networks to study the divergence of PfRNaseH2-C across the eukaryotic domain.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-date">June 2025 to August 2025</div>
+                    <div class="timeline-content">
+                        <h3>Summer Research Intern, Computational Biophysics Lab</h3>
+                        <h4>Indian Institute of Technology (IIT) Mandi</h4>
+                        <ul>
+                            <li>Executed and analyzed numerous coarse-grained and all-atom molecular dynamics simulations ranging from 500 ns to 3 microseconds on the high-performance computing cluster.</li>
+                            <li>Simulated protein-membrane, protein-RNA, membrane-only, and protein-ligand systems, and performed principal component analyses using VMD and ChimeraX.</li>
+                            <li>Contributed to doctoral projects concerning SARS-CoV-2 polymerase RNA replication, extracellular vesicle protein stability, and hepatoprotective phytocompound-protein interactions.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-date">June 2024 to August 2024</div>
+                    <div class="timeline-content">
+                        <h3>Research Intern, Division of Infectious Disease</h3>
+                        <h4>National Health Research Institutes (NHRI), Taiwan</h4>
+                        <ul>
+                            <li>Worked within a BSL-2 facility comparing infection rates across three Dengue virus genotypes via plaque assays, virus titration, and animal cell culture.</li>
+                            <li>Performed animal models procedures, genotyping PCR, Oxford Nanopore flow-cell preparation, immunofluorescence assays, and Western blotting.</li>
+                            <li>Assisted with viral RNA purification, cDNA synthesis, and flow cytometry analysis of adenovirus-infected cells.</li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="section-bg fade-in">
+        <div class="container">
+            <h2 class="section-title">Selected Projects</h2>
+            <div class="grid-layout">
+
+                <div class="card">
+                    <div class="card-body">
+                        <h3>Plasmodium falciparum Multi-Omics Portal</h3>
+                        <p>Developed a web platform integrating data from PlasmoDB, UniProt, STRING, NCBI, and AlphaFold DB. The portal provides interactive visualisations of the proteome, genome, transcriptome, interactome, spatial localisation, and gene ontology of the parasite.</p>
+                        <a href="https://jayanth-vegesna.github.io/Plasmodium" class="card-link" target="_blank">View Portal</a>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-body">
+                        <h3>Automated Molecular Docking Pipeline</h3>
+                        <p>Developed a reproducible Python-based molecular docking workflow integrating AutoDock Vina, MDAnalysis, and ProLIF. This tool allows for automated protein-ligand interaction analysis and structural visualization.</p>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-body">
+                        <h3>Phytocompound Repurposing for Gastric Cancer</h3>
+                        <p>Screened phytocompounds against gastric cancer receptors using SwissADME. Performed molecular docking for binding-affinity ranking and executed molecular dynamics simulations of the highest-ranked ligands to compute RMSD, RMSF, SASA, and radius of gyration.</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="publications" class="fade-in">
+        <div class="container">
+            <h2 class="section-title">Publications</h2>
+            <div class="publication-item">
+                <p>Cherian J, Kunigiri S, Vegesna J, Yadav PK, Kumar V. "Geroprotective effects of bioactive compounds against hydroquinone toxicity in Drosophila melanogaster: an in vivo and in silico insight." <em>Biogerontology</em>, 2026.</p>
+                <a href="https://doi.org/10.1007/s10522-026-10452-x" class="btn btn-secondary btn-sm" target="_blank">DOI: 10.1007/s10522-026-10452-x</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="section-bg fade-in">
+        <div class="container">
+            <h2 class="section-title">Technical Skills</h2>
+
+            <div class="skill-category">
+                <h3>Programming</h3>
+                <div class="skill-chips">
+                    <span class="chip">Python</span>
+                    <span class="chip">Bash</span>
+                    <span class="chip">Linux</span>
+                    <span class="chip">MATLAB</span>
+                    <span class="chip">C/C++</span>
+                </div>
+            </div>
+
+            <div class="skill-category">
+                <h3>Computational Tools</h3>
+                <div class="skill-chips">
+                    <span class="chip">GROMACS</span>
+                    <span class="chip">AutoDock Vina</span>
+                    <span class="chip">MDAnalysis</span>
+                    <span class="chip">Biopython</span>
+                    <span class="chip">VMD</span>
+                    <span class="chip">ChimeraX</span>
+                    <span class="chip">CLANS</span>
+                    <span class="chip">Cytoscape</span>
+                </div>
+            </div>
+
+            <div class="skill-category">
+                <h3>Wet Lab Techniques</h3>
+                <div class="skill-chips">
+                    <span class="chip">Molecular Cloning</span>
+                    <span class="chip">Protein Purification</span>
+                    <span class="chip">PCR</span>
+                    <span class="chip">Western Blotting</span>
+                    <span class="chip">Bacterial Cell Culture</span>
+                    <span class="chip">Mammalian Cell Culture</span>
+                    <span class="chip">Flow Cytometry</span>
+                    <span class="chip">Immunofluorescence</span>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="achievements" class="fade-in">
+        <div class="container">
+            <h2 class="section-title">Achievements and Conferences</h2>
+
+            <div class="subsection-header">Research Achievements</div>
+            <div class="achievements-grid">
+                <div class="achievement-card">
+                    <div class="achievement-title">3rd Prize, Manipal Biopharma Hackathon 2025</div>
+                    <div class="achievement-org">Manipal-GOK Bioincubator</div>
+                </div>
+
+                <div class="achievement-card">
+                    <div class="achievement-title">1st Prize, COGNITA 25 Pharma Insight Poster Presentation</div>
+                    <div class="achievement-org">Lovely Professional University</div>
+                </div>
+
+                <div class="achievement-card">
+                    <div class="achievement-title">2nd Prize, SPARK Innovation Challenge</div>
+                    <div class="achievement-org">Regional Centre of Biotechnology</div>
+                </div>
+
+                <div class="achievement-card">
+                    <div class="achievement-title">1st Prize, Biofluence Bio-Hackathon</div>
+                    <div class="achievement-org">Bversity</div>
+                </div>
+            </div>
+
+            <div class="subsection-header">Conferences and Symposia</div>
+            <div class="achievements-grid">
+                <div class="conference-card">
+                    <div class="achievement-title">Attendee, 2024 Biomedical Research Symposium</div>
+                    <div class="achievement-org">NHRI Taiwan</div>
+                </div>
+
+                <div class="conference-card">
+                    <div class="achievement-title">Poster Presenter, Microbial Bioprospecting Towards SDGs</div>
+                    <div class="achievement-org">International Conference</div>
+                </div>
+
+                <div class="conference-card">
+                    <div class="achievement-title">Poster Presenter, Bioengineering and Biosciences</div>
+                    <div class="achievement-org">International Conference (ICBB-2022)</div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <footer>
+        <div class="container footer-content">
+            <div class="footer-info">
+                <h2>Jayanth Vegesna</h2>
+                <p>jayanth@iitg.ac.in | (+91) 7032583262</p>
+            </div>
+            <div class="footer-actions">
+                <a href="Jayanth_CV.pdf" class="btn btn-primary" download>Download CV</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
